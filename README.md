@@ -33,7 +33,8 @@
 
 📹 [Horizon AI Glasses 功能演示视频](https://github.com/Lewis-L-C/Horizon-AI-Glasses/raw/main/docs/video/Horizon-AI-Glasses.mp4)
 
-**App 功能截图**（再次点击上方标题即可收起）：
+<details>
+<summary><b>🖼️ App 部分功能展示（点击展开）</b></summary>
 
 | 盲道识别（端侧） | 文字翻译 | 拍照解题（GLM-4V） |
 | :---: | :---: | :---: |
@@ -42,6 +43,8 @@
 | 高德地图定位 | 路线规划与导航 |
 | :---: | :---: |
 | <img src="docs/images/map-location-demo.png" width="200"/> | <img src="docs/images/navigation-demo.png" width="200"/> |
+
+</details>
 
 </details>
 

@@ -33,7 +33,8 @@ The current version has integrated the core pipelines of glasses connection, off
 
 📹 [Horizon AI Glasses demo video](https://github.com/Lewis-L-C/Horizon-AI-Glasses/raw/main/docs/video/Horizon-AI-Glasses.mp4)
 
-**App feature screenshots** (click the title above to collapse):
+<details>
+<summary><b>🖼️ App feature showcase (click to expand)</b></summary>
 
 | Blind-path detection (on-device) | Text translation | Photo problem-solving (GLM-4V) |
 | :---: | :---: | :---: |
@@ -42,6 +43,8 @@ The current version has integrated the core pipelines of glasses connection, off
 | AMap location | Route planning & navigation |
 | :---: | :---: |
 | <img src="docs/images/map-location-demo.png" width="200"/> | <img src="docs/images/navigation-demo.png" width="200"/> |
+
+</details>
 
 </details>
 
