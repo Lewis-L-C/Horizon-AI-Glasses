@@ -29,9 +29,9 @@ The current version has integrated the core pipelines of glasses connection, off
 <details>
 <summary><b>🎬 Open the demo (click to expand)</b></summary>
 
-**Full demo video** (click the link to play):
+**Full demo video** (click the link to download):
 
-📹 [Horizon AI Glasses demo video](docs/video/Horizon-AI-Glasses.mp4)
+📹 [Horizon AI Glasses demo video](https://github.com/Lewis-L-C/Horizon-AI-Glasses/raw/main/docs/video/Horizon-AI-Glasses.mp4)
 
 **App feature screenshots** (click the title above to collapse):
 

@@ -29,9 +29,9 @@
 <details>
 <summary><b>🎬 打开 Demo 演示（点击展开）</b></summary>
 
-**完整功能演示视频**（点击链接跳转播放）：
+**完整功能演示视频**（点击链接下载）：
 
-📹 [Horizon AI Glasses 功能演示视频](docs/video/Horizon-AI-Glasses.mp4)
+📹 [Horizon AI Glasses 功能演示视频](https://github.com/Lewis-L-C/Horizon-AI-Glasses/raw/main/docs/video/Horizon-AI-Glasses.mp4)
 
 **App 功能截图**（再次点击上方标题即可收起）：
 
