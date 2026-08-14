@@ -22,15 +22,30 @@ The current version has integrated the core pipelines of glasses connection, off
 
 ## Demo / Product Preview
 
-Real screenshots from running the app (see [`docs/images`](docs/images/)).
+**Android app UI** (real screenshot from a device)
+
+<img src="docs/images/app-interface.png" width="300" alt="Horizon AI Glasses app UI"/>
+
+<details>
+<summary><b>🎬 Open the demo (click to expand)</b></summary>
+
+> **Demo video**: the full demo video (~252 MB) exceeds GitHub's 100 MB per-file
+> limit and is not committed. Place it at `docs/video/demo.mp4` (or replace with
+> a hosted link) to play it below:
+
+<video src="docs/video/demo.mp4" controls width="100%"></video>
+
+**App feature screenshots** (click the title above to collapse):
 
 | Blind-path detection (on-device) | Text translation | Photo problem-solving (GLM-4V) |
 | :---: | :---: | :---: |
-| <img src="docs/images/blind-road-detection.png" width="240"/> | <img src="docs/images/translation-demo.png" width="240"/> | <img src="docs/images/problem-solving-demo.png" width="240"/> |
+| <img src="docs/images/blind-road-detection.png" width="200"/> | <img src="docs/images/translation-demo.png" width="200"/> | <img src="docs/images/problem-solving-demo.png" width="200"/> |
 
 | AMap location | Route planning & navigation |
 | :---: | :---: |
-| <img src="docs/images/map-location-demo.png" width="240"/> | <img src="docs/images/navigation-demo.png" width="240"/> |
+| <img src="docs/images/map-location-demo.png" width="200"/> | <img src="docs/images/navigation-demo.png" width="200"/> |
+
+</details>
 
 > All screenshots are from the Android phone app; on the glasses side, custom views are rendered through the CXR-M SDK for near-eye display.
 

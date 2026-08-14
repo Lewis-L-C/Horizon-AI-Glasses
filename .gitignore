@@ -90,3 +90,6 @@ app/src/main/assets/model_en/
 /docs/__pycache__/
 /docs/_test_float.docx
 /docs/~$*.docx
+
+# --- Demo media (large videos > GitHub 100MB limit) ---
+/docs/video/

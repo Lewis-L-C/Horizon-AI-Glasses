@@ -22,15 +22,29 @@
 
 ## Demo / 产品预览
 
-以下为真实设备运行截图（详见 [`docs/images`](docs/images/)）。
+**Android 应用界面**（真实设备运行截图）
+
+<img src="docs/images/app-interface.png" width="300" alt="Horizon AI Glasses 应用界面"/>
+
+<details>
+<summary><b>🎬 打开 Demo 演示（点击展开）</b></summary>
+
+> **Demo 视频**：完整功能演示视频约 252 MB，超过 GitHub 单文件 100 MB 限制，未直接提交。
+> 可将视频放入 `docs/video/demo.mp4`（或替换为线上托管链接）后在下方播放：
+
+<video src="docs/video/demo.mp4" controls width="100%"></video>
+
+**App 功能截图**（再次点击上方标题即可收起）：
 
 | 盲道识别（端侧） | 文字翻译 | 拍照解题（GLM-4V） |
 | :---: | :---: | :---: |
-| <img src="docs/images/blind-road-detection.png" width="240"/> | <img src="docs/images/translation-demo.png" width="240"/> | <img src="docs/images/problem-solving-demo.png" width="240"/> |
+| <img src="docs/images/blind-road-detection.png" width="200"/> | <img src="docs/images/translation-demo.png" width="200"/> | <img src="docs/images/problem-solving-demo.png" width="200"/> |
 
 | 高德地图定位 | 路线规划与导航 |
 | :---: | :---: |
-| <img src="docs/images/map-location-demo.png" width="240"/> | <img src="docs/images/navigation-demo.png" width="240"/> |
+| <img src="docs/images/map-location-demo.png" width="200"/> | <img src="docs/images/navigation-demo.png" width="200"/> |
+
+</details>
 
 > 截图说明：均为 Android 手机端应用界面截图；眼镜端通过 CXR-M SDK 接收自定义视图进行近眼显示。
 
