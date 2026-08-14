@@ -29,11 +29,9 @@ The current version has integrated the core pipelines of glasses connection, off
 <details>
 <summary><b>🎬 Open the demo (click to expand)</b></summary>
 
-> **Demo video**: the full demo video (~252 MB) exceeds GitHub's 100 MB per-file
-> limit and is not committed. Place it at `docs/video/demo.mp4` (or replace with
-> a hosted link) to play it below:
+**Full demo video** (click to play):
 
-<video src="docs/video/demo.mp4" controls width="100%"></video>
+<video src="docs/video/Horizon AI Glasses.mp4" controls width="100%"></video>
 
 **App feature screenshots** (click the title above to collapse):
 

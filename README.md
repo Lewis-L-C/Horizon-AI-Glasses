@@ -29,10 +29,9 @@
 <details>
 <summary><b>🎬 打开 Demo 演示（点击展开）</b></summary>
 
-> **Demo 视频**：完整功能演示视频约 252 MB，超过 GitHub 单文件 100 MB 限制，未直接提交。
-> 可将视频放入 `docs/video/demo.mp4`（或替换为线上托管链接）后在下方播放：
+**完整功能演示视频**（点击播放）：
 
-<video src="docs/video/demo.mp4" controls width="100%"></video>
+<video src="docs/video/Horizon AI Glasses.mp4" controls width="100%"></video>
 
 **App 功能截图**（再次点击上方标题即可收起）：
 

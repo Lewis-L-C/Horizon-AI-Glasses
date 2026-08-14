@@ -91,5 +91,6 @@ app/src/main/assets/model_en/
 /docs/_test_float.docx
 /docs/~$*.docx
 
-# --- Demo media (large videos > GitHub 100MB limit) ---
-/docs/video/
+# --- Demo media: ignore everything in docs/video/ EXCEPT the committed demo video ---
+/docs/video/*
+!/docs/video/Horizon AI Glasses.mp4
