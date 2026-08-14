@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_health_status"
+    android:paddingHorizontal="8dp"
+    android:paddingVertical="6dp"
+    android:elevation="8dp">
+
+    <TextView
+        android:id="@+id/tvHealthTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📊 我的健康"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/tvHeartRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="❤️ 72 bpm"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/tvSpO2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🩸 98%"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/tvFatigue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="😊 23%"
+        android:textColor="#4CAF50"
+        android:textSize="10sp" />
+
+</LinearLayout>

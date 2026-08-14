@@ -1,0 +1,8 @@
+PLACEHOLDER_LICENSE
+------------------
+Replace this file with your own Rokid device license (.lc) file.
+See docs/development/rokid-device-license.md for instructions.
+A real license file is required for the app to authenticate with
+Rokid glasses. The build succeeds with this placeholder, but the
+device connection will fail at runtime until a valid license is
+provided.

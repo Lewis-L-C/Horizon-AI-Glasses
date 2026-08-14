@@ -1,0 +1,32 @@
+## Horizon AI Glasses — local secrets template
+## ============================================================
+## Copy this file to `local.properties` and fill in your own keys.
+##
+##   # Windows (PowerShell)
+##   Copy-Item local.properties.example local.properties
+##   # macOS / Linux
+##   cp local.properties.example local.properties
+##
+## `local.properties` is git-ignored and must NEVER be committed.
+## The values below are read by app/build.gradle and injected as
+## BuildConfig fields. Cloud features need real keys to work.
+
+# Android SDK location (required to build)
+sdk.dir=/path/to/your/Android/Sdk
+
+# DeepSeek API key — conversation, translation, simultaneous
+# interpretation and AI intent analysis.
+# Get one at https://platform.deepseek.com/
+DEEPSEEK_API_KEY=your_deepseek_api_key_here
+
+# Zhipu / GLM API key — photo problem-solving (GLM-4V multimodal).
+# Get one at https://open.bigmodel.cn/
+GLM_API_KEY=your_glm_api_key_here
+
+# AMap (Gaode) API key — map display, location and route planning.
+# Get one at https://lbs.amap.com/
+AMAP_API_KEY=your_amap_api_key_here
+
+# Rokid CXR device client secret — device authentication with
+# Rokid glasses. See the Rokid developer portal.
+ROKID_CLIENT_SECRET=your_rokid_client_secret_here

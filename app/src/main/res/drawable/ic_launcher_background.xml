@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- ============================================
+    基础背景色（淡青）
+    ============================================ -->
+    <path
+        android:fillColor="#E8F4F8"
+        android:pathData="M0,0 h108 v108 h-108 z"/>
+
+    <!-- ============================================
+    上半部分微光（浅色到透明渐变效果）
+    ============================================ -->
+    <path
+        android:fillColor="#D0EAF2"
+        android:fillAlpha="0.3"
+        android:pathData="M0,0 L108,0 L108,30 L0,50 Z"/>
+
+    <!-- ============================================
+    下半部分微光（从底部向上渐变）
+    ============================================ -->
+    <path
+        android:fillColor="#C0E0E8"
+        android:fillAlpha="0.25"
+        android:pathData="M0,78 L108,78 L108,108 L0,108 Z"/>
+
+    <!-- ============================================
+    中心光晕（呼应眼镜位置）
+    ============================================ -->
+    <circle
+        android:centerX="54"
+        android:centerY="50"
+        android:radius="35dp"
+        android:fillColor="#00ADB5"
+        android:fillAlpha="0.04"/>
+
+    <!-- ============================================
+    底部微弱光晕
+    ============================================ -->
+    <circle
+        android:centerX="54"
+        android:centerY="80"
+        android:radius="25dp"
+        android:fillColor="#00ADB5"
+        android:fillAlpha="0.06"/>
+
+    <!-- ============================================
+    左上角科技装饰弧线（极淡）
+    ============================================ -->
+    <path
+        android:pathData="M12,12 C20,6 32,6 40,12"
+        android:strokeColor="#00ADB5"
+        android:strokeWidth="1.5"
+        android:strokeAlpha="0.15"
+        android:fillColor="#00000000"/>
+
+    <!-- ============================================
+    右上角科技装饰弧线
+    ============================================ -->
+    <path
+        android:pathData="M68,12 C76,6 88,6 96,12"
+        android:strokeColor="#00ADB5"
+        android:strokeWidth="1.5"
+        android:strokeAlpha="0.15"
+        android:fillColor="#00000000"/>
+
+    <!-- ============================================
+    左上角小光点 ×2
+    ============================================ -->
+    <circle
+        android:centerX="16"
+        android:centerY="10"
+        android:radius="1.5dp"
+        android:fillColor="#00ADB5"
+        android:fillAlpha="0.2"/>
+
+    <circle
+        android:centerX="36"
+        android:centerY="9"
+        android:radius="1.5dp"
+        android:fillColor="#00ADB5"
+        android:fillAlpha="0.2"/>
+
+    <!-- ============================================
+    右上角小光点 ×2
+    ============================================ -->
+    <circle
+        android:centerX="72"
+        android:centerY="9"
+        android:radius="1.5dp"
+        android:fillColor="#00ADB5"
+        android:fillAlpha="0.2"/>
+
+    <circle
+        android:centerX="92"
+        android:centerY="10"
+        android:radius="1.5dp"
+        android:fillColor="#00ADB5"
+        android:fillAlpha="0.2"/>
+
+    <!-- ============================================
+    底部科技地平线（极淡）
+    ============================================ -->
+    <path
+        android:pathData="M20,82 C40,76 68,76 88,82"
+        android:strokeColor="#00ADB5"
+        android:strokeWidth="1.5"
+        android:strokeAlpha="0.12"
+        android:fillColor="#00000000"/>
+
+    <!-- ============================================
+    底部光点 ×3
+    ============================================ -->
+    <circle
+        android:centerX="38"
+        android:centerY="84"
+        android:radius="1.5dp"
+        android:fillColor="#00ADB5"
+        android:fillAlpha="0.15"/>
+
+    <circle
+        android:centerX="54"
+        android:centerY="83"
+        android:radius="2dp"
+        android:fillColor="#00ADB5"
+        android:fillAlpha="0.2"/>
+
+    <circle
+        android:centerX="70"
+        android:centerY="84"
+        android:radius="1.5dp"
+        android:fillColor="#00ADB5"
+        android:fillAlpha="0.15"/>
+
+</vector>

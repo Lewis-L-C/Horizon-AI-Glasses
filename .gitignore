@@ -1,0 +1,92 @@
+# ============================================================
+# Horizon AI Glasses — .gitignore
+# ============================================================
+
+# --- Gradle / Android build ---
+.gradle/
+build/
+app/build/
+captures/
+*.iml
+.gradle-caches/
+
+# --- IDE ---
+.idea/
+.kotlin/
+.fleet/
+.vscode/
+*.ipr
+*.iws
+
+# --- Local configuration (machine paths + API keys — never commit) ---
+local.properties
+*.properties.local
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- Build outputs ---
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.log
+*.test
+
+# --- Signing / private keys ---
+*.jks
+*.keystore
+*.pem
+*.p12
+*.key
+*.lc.real
+
+# --- Environment files ---
+.env
+.env.*
+
+# --- Native build ---
+.externalNativeBuild/
+.cxx/
+*.o
+
+# ============================================================
+# Third-party SDK binaries that must NOT be redistributed in
+# this public repository. Obtain them from their official
+# channels and place them at the documented paths.
+# See docs/development/required-sdk-files.md
+# ============================================================
+# AMap (Gaode) SDK — map/location/search AAR + native libs
+app/src/main/assets/maps/
+# Rokid CXR SDK native libs + AMap native libs (NeonUI/nui, openssl, apssdk)
+app/jniLibs/
+
+# ============================================================
+# Vosk offline ASR models (large; freely downloadable from
+# alphacephei.com/vosk/models — see docs/development/)
+# ============================================================
+app/src/main/assets/model/
+app/src/main/assets/model_en/
+
+# ============================================================
+# Local workspace artifacts (not part of the project)
+# ============================================================
+/.claude/
+/projects/
+/图片/
+/AI眼镜13.30版本_files/
+/*.pptx
+/~$*.docx
+/Horizon AI Glasses.docx
+
+# --- Thesis-generation workspace under docs/ (drafts & scripts) ---
+/docs/*.md
+/docs/*.docx
+/docs/*.pdf
+/docs/*.py
+/docs/__pycache__/
+/docs/_test_float.docx
+/docs/~$*.docx

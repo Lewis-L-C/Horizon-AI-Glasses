@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- ============================================
+    权限
+    ============================================ -->
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- 蓝牙权限 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- Android 12+ 蓝牙权限 -->
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_SCAN"
+        android:usesPermissionFlags="neverForLocation"
+        tools:targetApi="s" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+
+    <!-- 录音权限 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <!-- 网络权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <!-- 相机权限 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!-- 前台服务 -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <!-- ✅ 运动检测权限（Android 10+ 计步需要） -->
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="true" />
+
+    <!-- 语音识别查询 -->
+    <queries>
+        <intent>
+            <action android:name="android.speech.RecognitionService" />
+        </intent>
+        <intent>
+            <action android:name="android.speech.action.RECOGNIZE_SPEECH" />
+        </intent>
+        <package android:name="com.vivo.voiceassist" />
+        <package android:name="com.vivo.aiservice" />
+        <package android:name="com.vivo.ai.copilot" />
+        <package android:name="com.iflytek.inputmethod" />
+        <package android:name="com.baidu.input" />
+        <package android:name="com.google.android.tts" />
+        <package android:name="com.google.android.voicesearch" />
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:targetApi="31">
+
+        <!-- ============================================
+        高德地图配置
+        ============================================ -->
+        <!-- 高德地图 API Key（由 local.properties 中的 AMAP_API_KEY 注入） -->
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="${amap_api_key}" />
+
+        <!-- 高德定位 Service -->
+        <service android:name="com.amap.api.location.APSService" />
+
+        <!-- ============================================
+        Activity
+        ============================================ -->
+        <activity
+            android:name="com.blue.glassesapp.feature.init.InitActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.blue.glassesapp.feature.scanblueroorh.BluetoothScanActivity"
+            android:exported="true" />
+
+        <activity
+            android:name="com.blue.glassesapp.feature.home.ui.HomeActivity"
+            android:exported="true" />
+
+        <!-- ✅ 恢复 RealTimeTranslateActivity 作为独立 Activity -->
+        <activity
+            android:name="com.blue.glassesapp.feature.home.ui.RealTimeTranslateActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden|layoutDirection"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+
+        <!-- ✅ 运动检测 Activity -->
+        <activity
+            android:name="com.blue.glassesapp.feature.home.ui.SportTrackingActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:screenOrientation="portrait"
+            android:exported="false" />
+
+        <!-- ============================================
+        Receiver & Service
+        ============================================ -->
+        <receiver
+            android:name="com.blue.glassesapp.core.receiver.BluetoothConnectReceiver"
+            android:enabled="true"
+            android:exported="false" />
+
+        <service
+            android:name="com.blue.glassesapp.core.service.DeviceMonitorService"
+            android:exported="false"
+            android:foregroundServiceType="connectedDevice|dataSync" />
+
+        <service
+            android:name="com.blue.glassesapp.feature.home.ui.hid.BluetoothHidService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="connectedDevice" />
+
+    </application>
+
+</manifest>
