@@ -29,9 +29,9 @@
 <details>
 <summary><b>🎬 打开 Demo 演示（点击展开）</b></summary>
 
-**完整功能演示视频**（点击播放）：
+**完整功能演示视频**（点击缩略图跳转播放）：
 
-<video src="docs/video/Horizon-AI-Glasses.mp4" controls width="100%"></video>
+[<img src="docs/images/demo-thumbnail.jpg" width="300" alt="点击播放 Demo 演示视频"/>](docs/video/Horizon-AI-Glasses.mp4)
 
 **App 功能截图**（再次点击上方标题即可收起）：
 
