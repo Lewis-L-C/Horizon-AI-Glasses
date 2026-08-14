@@ -31,7 +31,7 @@
 
 **完整功能演示视频**（点击播放）：
 
-<video src="docs/video/Horizon AI Glasses.mp4" controls width="100%"></video>
+<video src="docs/video/Horizon-AI-Glasses.mp4" controls width="100%"></video>
 
 **App 功能截图**（再次点击上方标题即可收起）：
 

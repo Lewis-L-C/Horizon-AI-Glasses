@@ -31,7 +31,7 @@ The current version has integrated the core pipelines of glasses connection, off
 
 **Full demo video** (click to play):
 
-<video src="docs/video/Horizon AI Glasses.mp4" controls width="100%"></video>
+<video src="docs/video/Horizon-AI-Glasses.mp4" controls width="100%"></video>
 
 **App feature screenshots** (click the title above to collapse):
 

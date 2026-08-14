@@ -93,4 +93,4 @@ app/src/main/assets/model_en/
 
 # --- Demo media: ignore everything in docs/video/ EXCEPT the committed demo video ---
 /docs/video/*
-!/docs/video/Horizon AI Glasses.mp4
+!/docs/video/Horizon-AI-Glasses.mp4
